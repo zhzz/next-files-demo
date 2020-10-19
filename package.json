@@ -9,7 +9,11 @@
   },
   "dependencies": {
     "next": "9.5.5",
+    "next-files-demo-dep": "file:dep",
     "react": "16.14.0",
     "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "url-loader": "^4.1.1"
   }
 }
