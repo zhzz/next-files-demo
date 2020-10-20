@@ -1,3 +1,6 @@
+const React = require("react");
+const ico = require("./favicon.ico");
+
 module.exports = {
-  favicon: require("../public/favicon.ico"),
+  Img: () => React.createElement("img", { src: ico.default }),
 };
